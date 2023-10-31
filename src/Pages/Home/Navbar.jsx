@@ -65,7 +65,7 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-            Portfolio 
+            Portfolio  &nbsp; 
             </Link>
 
             <Link
@@ -78,7 +78,7 @@ function Navbar() {
               to="AboutMe"
               className="navbar--content"
             >
-            About Me 
+            About Me &nbsp;  
             </Link>
             
 
@@ -89,10 +89,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="testimonials"
               className="navbar--content"
             >
-              Testimonials 
+              Testimonials  &nbsp; 
             </Link>
           </li>
         </ul>
@@ -107,7 +107,7 @@ function Navbar() {
         to="ContactMe"
         className="btn btn-outline-primary"
       >
-        Contact Me .
+        Contact Me
       </Link>
     </nav>
   );
