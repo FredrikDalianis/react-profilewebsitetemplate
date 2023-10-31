@@ -28,5 +28,61 @@
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
         
     }
-    ]
+    ],
+    "portfolio":[
+        {
+            "id":"1",
+            "src": "./img/portfolioImage1.png",
+            "title":"First project",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+            ,
+            "link": "View in Github"
+        },
+        {
+            "id":"2",
+            "src": "./img/portfolioImage2.png",
+            "title":"Second project",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+            ,"link": "View in Github"
+        },
+        {
+            "id":"3",
+            "src": "./img/portfolioImage3.png",
+            "title":"Third project",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+            ,"link": "View in Github"
+        }
+        ],
+        "testimonial":[
+            {
+                "id":"1",
+                "count":"5",
+                "src": "./img/testimonialImage1.png",
+                "title":"First testimonial",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+                ,"author_name":"Anders Ericsson"
+                ,
+                "author_designation": "Starbucks"
+            },
+            {
+                "id":"2",
+                "count":"5",
+                "src": "./img/testimonialImage2.png",
+                "title":"Second project",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+                ,"author_name":"Billy Temple "
+                ,
+                "author_designation": "Temple Dry Cleaning"
+            },
+            {
+                "id":"3",
+                "count":"5",
+                "src": "./img/testimonialImage3.png",
+                "title":"Third project",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+                ,"author_name":"Stephen Bowser"
+                ,
+                "author_designation": "McDonalds"
+            }
+            ]
 }
