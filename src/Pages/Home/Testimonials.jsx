@@ -39,6 +39,7 @@ export default function Testimonial (){
                         <img src={item.src}/>
                         <div>
                             <p className="text-md testimonial--author--name">{item.author_name}</p>
+                            <p className="text-md testimonial--author--designation">{item.author_designation}</p>
                         </div>
                     </div>
                 </div>
