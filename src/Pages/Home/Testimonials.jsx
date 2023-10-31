@@ -2,26 +2,28 @@ import data from "../../data/index.json";
 
 export default function Testimonial (){
 
-    return(
-        <section className="testimonial--section" id="testimonials">
-        <div className="portfolio--container-box">
-
-
+    return(<>
+        {data?.testimonial?.map((item,index) => (
         
+        
+            
+        <section className="testimonial--section" id="testimonials" key={index}>
+        <div className="portfolio--container-box">
         <div className="portfolio--container">
-            <p className="sub-title">Clients Feedback</p>
+            <p  className="sub-title">Clients Feedback</p>
             <h2 className="section--heading">Customer Feedback</h2>
         </div>
-            </div>
+        </div>
 
           <div className="portfolio--section--container">
-            {data?.testimonial?.map((item,index) => (
-                <div key={index} className="testimonial--section--card">
-                    <div className="testimonial--section--card--review">
-                    {Array.from({length: 5},(reviews,index)=>
+            
+                <div  className="testimonial--section--card">
+                    <div key={index}className="testimonial--section--card--review">
+                    {Array.from({length: 5},(item,index)=>
                     (
                         <svg 
-                     
+                        key={index}
+                       
                         xmlns="http://www.w3.org/2000/svg" 
                         width="16" 
                         height="16" 
@@ -43,9 +45,11 @@ export default function Testimonial (){
                         </div>
                     </div>
                 </div>
-            ))}
+        
           </div>      
 
         </section>
+        ))}
+        </>
     );
 }

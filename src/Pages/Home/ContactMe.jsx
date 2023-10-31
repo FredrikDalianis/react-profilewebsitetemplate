@@ -1,10 +1,12 @@
 import data from "../../data/index.json";
+import myEmailString from "../../data/myemailString.json";
 import { useState } from "react";
 
 export default function ContactMe() {
+    const emailString = myEmailString.emailstring;
 
     const [selectedTopic, setSelectedTopic] = useState(""); // State för att hålla reda på det valda ämnet
-
+    
     const handleTopicChange = (e) => {
       const selectedValue = e.target.value;
       setSelectedTopic(selectedValue);
@@ -20,7 +22,7 @@ export default function ContactMe() {
           minus molestiae vel beatae natus eveniet ratione temporibus
         </p>
       </div>
-      <form  action="https://formsubmit.co/56e7538715dc609960e4e15452516846" method="post" className="contact--form--container">
+      <form  action={emailString} method="post" className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
@@ -30,6 +32,7 @@ export default function ContactMe() {
               name="first-name"
               id="first-name"
               required
+              autoComplete="on"
             ></input>
             
           </label>
@@ -42,6 +45,7 @@ export default function ContactMe() {
               name="last-name"
               id="last-name"
               required
+              autoComplete="on"
             ></input>
           </label>
           <label htmlFor="email" className="contact--label">
@@ -52,6 +56,7 @@ export default function ContactMe() {
               name="email"
               id="email"
               required
+              autoComplete="on"
             ></input>
           </label>
           <label htmlFor="phone-number" className="contact--label">
@@ -62,6 +67,7 @@ export default function ContactMe() {
               name="phone-number"
               id="phone-number"
               required
+              autoComplete="on"
             ></input>
           </label>
         </div>
@@ -79,8 +85,8 @@ export default function ContactMe() {
                 <option placeholder="Select a topic" key={item.id}>
                   {" "}
                   {item.title}
-                  <input type="hidden" name="_subject" value={selectedTopic}></input>
                 </option>
+                
               ))}
             </select>
           </label>
@@ -108,6 +114,7 @@ export default function ContactMe() {
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>
+        <input type="hidden" name="_subject" value={selectedTopic}></input>
       </form>
     </section>
   );
