@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 function Navbar() {
-  const { navActive, setNavActive } = useState(false);
+  const [navActive, setNavActive ] = useState(false);
 
   const toggleNav = () => {
     setNavActive(!navActive);
@@ -62,9 +62,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="myPortfolio"
+              to="MyPortfolio"
               className="navbar--content"
-            >Portfolio .
+            >
+            Portfolio 
             </Link>
 
             <Link
@@ -76,7 +77,8 @@ function Navbar() {
               duration={500}
               to="AboutMe"
               className="navbar--content"
-            >About Me .
+            >
+            About Me 
             </Link>
             
 
@@ -87,10 +89,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="Testimonals"
+              to="testimonial"
               className="navbar--content"
             >
-              Testimonials .
+              Testimonials 
             </Link>
           </li>
         </ul>

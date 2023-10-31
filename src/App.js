@@ -20,11 +20,7 @@ function App() {
     <Routes>
 
       <Route path="/" element={<Home/>}></Route>
-{/* 
-      <Route path="/" element={<AboutMe/>}></Route>
-      <Route path="/" element={<MySkills/>}></Route>
-      <Route path="/" element={<ContactMe/>}></Route>
-      <Route path="/" element={<Testimonials/>}></Route> */}
+
 
       <Route path="*" element={<div>404 not Found</div>}></Route>
 

@@ -1,88 +1,94 @@
 {
-    "skills":[
-    {
-        "id":"1",
-        "src": "./img/skillimage1.png",
-        "title":"Python",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-        
-    },
-    {
-        "id":"2",
-        "src": "./img/skillimage2.png",
-        "title":"C sharp",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-        
-    },
-    {
-        "id":"3",
-        "src": "./img/skillimage3.png",
-        "title":"Html",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-        
-    },
-    {
-        "id":"4",
-        "src": "./img/skillimage4.png",
-        "title":"UI & UX Design",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-        
-    }
-    ],
-    "portfolio":[
+    "skills": [
         {
-            "id":"1",
+            "id": "1",
+            "src": "./img/skillimage1.png",
+            "title": "Python",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "2",
+            "src": "./img/skillimage2.png",
+            "title": "C sharp",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "3",
+            "src": "./img/skillimage3.png",
+            "title": "Html",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "4",
+            "src": "./img/skillimage4.png",
+            "title": "UI & UX Design",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
             "src": "./img/portfolioImage1.png",
-            "title":"First project",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-            ,
+            "title": "First project",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique",
             "link": "View in Github"
         },
         {
-            "id":"2",
+            "id": "2",
             "src": "./img/portfolioImage2.png",
-            "title":"Second project",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-            ,"link": "View in Github"
+            "title": "Second project",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique",
+            "link": "View in Github"
         },
         {
-            "id":"3",
+            "id": "3",
             "src": "./img/portfolioImage3.png",
-            "title":"Third project",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-            ,"link": "View in Github"
+            "title": "Third project",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique",
+            "link": "View in Github"
         }
-        ],
-        "testimonial":[
-            {
-                "id":"1",
-                "count":"5",
-                "src": "./img/testimonialImage1.png",
-                "title":"First testimonial",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-                ,"author_name":"Anders Ericsson"
-                ,
-                "author_designation": "Starbucks"
-            },
-            {
-                "id":"2",
-                "count":"5",
-                "src": "./img/testimonialImage2.png",
-                "title":"Second project",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-                ,"author_name":"Billy Temple "
-                ,
-                "author_designation": "Temple Dry Cleaning"
-            },
-            {
-                "id":"3",
-                "count":"5",
-                "src": "./img/testimonialImage3.png",
-                "title":"Third project",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique"
-                ,"author_name":"Stephen Bowser"
-                ,
-                "author_designation": "McDonalds"
-            }
-            ]
+    ],
+    "testimonial": [
+        {
+            "id": "1",
+            "count": "5",
+            "src": "./img/testimonialImage1.png",
+            "title": "First testimonial",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique",
+            "author_name": "Anders Ericsson",
+            "author_designation": "Starbucks"
+        },
+        {
+            "id": "2",
+            "count": "5",
+            "src": "./img/testimonialImage2.png",
+            "title": "Second project",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique",
+            "author_name": "Billy Temple ",
+            "author_designation": "Temple Dry Cleaning"
+        },
+        {
+            "id": "3",
+            "count": "5",
+            "src": "./img/testimonialImage3.png",
+            "title": "Third project",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendmdisse varius eim in eros elementum tristique",
+            "author_name": "Stephen Bowser",
+            "author_designation": "McDonalds"
+        }
+    ],
+    "contact": [
+        {
+            "id": "1",
+            "title": "Freelance Opportunities:"
+        },
+        {
+            "id": "2",
+            "title": "Technical Consultation:"
+        },
+        {
+            "id": "3",
+            "title": "Project Collaboration:"
+        }
+    ]
 }
